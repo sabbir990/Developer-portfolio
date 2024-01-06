@@ -1,0 +1,247 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+/* Nav related CSS */
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 200px;
+}
+
+nav>ul {
+    display: flex;
+    align-items: center;
+
+}
+
+nav li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #383634;
+}
+
+.logo-r {
+    color: #ff9029;
+    font-weight: 800;
+}
+
+nav>h3 {
+    font-size: 50px;
+}
+
+.nav-button {
+    background-color: #ff9029;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    cursor: pointer;
+}
+
+header {
+    background-color: #fff8f3;
+}
+
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.info-section {
+    margin: 30px 0px 30px 150px;
+    display: flex;
+    align-items: center;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 700px;
+    justify-content: space-between;
+}
+
+.info-section img {
+    width: 400px;
+    margin-right: 50px;
+}
+
+.info-section div h3 {
+    font-size: 45px;
+    color: #75716d;
+}
+
+.info-section div h1 {
+    font-size: 85px;
+}
+
+.info-section div p {
+    max-width: 500px;
+    color: #75716d;
+    font-size: 18px;
+    padding: 10px 0;
+}
+
+.about {
+    width: 100%;
+    background-color: #fff8f3;
+    margin: 130px 0;
+    border-radius: 10px;
+    padding: 130px;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 35px;
+    font-weight: 700;
+    padding: 35px;
+}
+
+.section-description {
+    color: #757575;
+    font-size: 18px;
+    padding: 35px;
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-info>h3 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.about-info>p {
+    font-size: 19px;
+}
+
+.what-i-do-section {
+    text-align: center;
+}
+
+.what-i-do-description {
+    padding: 0 150px;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 15px;
+    text-align: left;
+    margin-top: 50px;
+}
+
+.card {
+    border: 1px solid transparent;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.card h3 {
+    font-size: 1.17em;
+    margin-top: 20px;
+}
+
+.card p {
+    font-size: 17px;
+    color: #75716d;
+    margin-top: 20px;
+}
+
+.qualification {
+    margin-top: 150px;
+}
+
+.headings {
+    font-size: 30px;
+    font-weight: 700;
+    color: #383634;
+    padding: 10px 0;
+}
+
+.section-name {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.underline {
+    width: 90%;
+    background-color: #75716d;
+    height: 1px;
+    margin: 10px auto;
+}
+
+.qualification-information{
+    padding: 20px 0;
+}
+
+.qualification-information > h4{
+    font-size: 25px;
+    color: #383634;
+    padding: 10px 0;
+}
+
+.qualification-information > h5{
+    color: #757575;
+    font-size: 23px;
+}
+
+.qualification-information > p{
+    font-size: 18px;
+    color: #757575;
+    margin: 10px 0;
+}
+
+.resume-download-section{
+    margin: 40px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-form{
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.connections > h1{
+    font-size: 45px;
+    padding: 30px 0;
+}
+
+.connections > p{
+    font-size: 18px;
+    color: #757575;
+    width: 500px;
+}
+
+.footer{
+    background-color: #fff8f3;
+    padding: 50px 0;
+    margin: 50px 0;
+}
+
+.form > h1{
+    color: black;
+    font-size: 45px;
+    padding: 30px 0;
+}
+
+.form input, textarea{
+    padding: 15px;
+    width: 80%;
+    border: none;
+    border-radius: 5px;
+}
